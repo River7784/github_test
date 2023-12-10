@@ -10,10 +10,10 @@
 		31D166B92B26328000629DC1 /* github_testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D166B82B26328000629DC1 /* github_testApp.swift */; };
 		31D166BB2B26328000629DC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D166BA2B26328000629DC1 /* ContentView.swift */; };
 		31D166BD2B26328300629DC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31D166BC2B26328300629DC1 /* Assets.xcassets */; };
-		31D166C02B26328300629DC1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31D166BF2B26328300629DC1 /* Preview Assets.xcassets */; };
 		31D166CA2B26328300629DC1 /* github_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D166C92B26328300629DC1 /* github_testTests.swift */; };
 		31D166D42B26328300629DC1 /* github_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D166D32B26328300629DC1 /* github_testUITests.swift */; };
 		31D166D62B26328300629DC1 /* github_testUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D166D52B26328300629DC1 /* github_testUITestsLaunchTests.swift */; };
+		31D166E32B26385400629DC1 /* LadderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D166E22B26385400629DC1 /* LadderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,12 +38,12 @@
 		31D166B82B26328000629DC1 /* github_testApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = github_testApp.swift; sourceTree = "<group>"; };
 		31D166BA2B26328000629DC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		31D166BC2B26328300629DC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		31D166BF2B26328300629DC1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		31D166C52B26328300629DC1 /* github_testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = github_testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31D166C92B26328300629DC1 /* github_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = github_testTests.swift; sourceTree = "<group>"; };
 		31D166CF2B26328300629DC1 /* github_testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = github_testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31D166D32B26328300629DC1 /* github_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = github_testUITests.swift; sourceTree = "<group>"; };
 		31D166D52B26328300629DC1 /* github_testUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = github_testUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		31D166E22B26385400629DC1 /* LadderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LadderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,18 +96,10 @@
 			children = (
 				31D166B82B26328000629DC1 /* github_testApp.swift */,
 				31D166BA2B26328000629DC1 /* ContentView.swift */,
+				31D166E22B26385400629DC1 /* LadderView.swift */,
 				31D166BC2B26328300629DC1 /* Assets.xcassets */,
-				31D166BE2B26328300629DC1 /* Preview Content */,
 			);
 			path = github_test;
-			sourceTree = "<group>";
-		};
-		31D166BE2B26328300629DC1 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				31D166BF2B26328300629DC1 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		31D166C82B26328300629DC1 /* github_testTests */ = {
@@ -231,7 +223,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31D166C02B26328300629DC1 /* Preview Assets.xcassets in Resources */,
 				31D166BD2B26328300629DC1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				31D166BB2B26328000629DC1 /* ContentView.swift in Sources */,
+				31D166E32B26385400629DC1 /* LadderView.swift in Sources */,
 				31D166B92B26328000629DC1 /* github_testApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
