@@ -5,20 +5,12 @@
 //  Created by 유가람 on 2023/12/11.
 //
 
-import SwiftUI
+import UIKit
 
-struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+class ViewController: UIViewController {
+    
+    override func viewDidLoad(){
+        super.viewDidLoad()
+        print("hi")
     }
-}
-
-#Preview {
-    ContentView()
 }
